@@ -47,10 +47,10 @@ export const HeroSection = () => {
         <p className="text-center text-xl md:text-2xl mt-6 text-zinc-400 max-w-3xl mx-auto">
         First Uranium blockchain ecosystem on Base Chain- for spot trading, derivatives, De-Fi, and RWA settlements.
         </p>
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10 hover:cursor-pointer">
   <CutCornerButton
-    className="flex items-center space-x-2"
-    onClick={() => window.open('https://twitter.com', '_blank')}
+    className="flex items-center space-x-2 hover:cursor-pointer"
+    onClick={() => window.open('https://twitter.com', '_blank')} 
   >
     <span className="text-base align-middle">Follow on</span>
     <span className="text-4xl font-bold leading-none align-middle mb-6"> 𝕏</span>
